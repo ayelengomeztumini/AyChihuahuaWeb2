@@ -1,0 +1,377 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: plum;
+}
+/*--HEADER---*/
+.menu_superior{
+    text-align: center;
+}
+.menu_superior ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: gainsboro;
+    font-size: large;
+}
+.menu_superior a{
+    color: black;
+}
+/*--ENCABEZADO TIENDA---*/
+.encabezado {
+    padding: 1rem;
+}
+.encabezado ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.encabezado a{
+    text-decoration: none;
+    color: black;
+}
+/*---INDEX---*/
+.titulo_info_interesante{
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+.contenido_info{
+    display: flex;
+    height: max-content;
+    width: 100%;
+}
+.info{
+    padding: 20px;
+    width: 50%;
+    text-align: justify;
+}
+.contenido_sugerencias img{
+    width: 300px;
+}
+/*---NOSOTROS---*/
+.titulo_nosotros{
+    padding-top: 2rem;
+    font-size:x-large;
+}
+.texto_nosotros{
+    padding-top: 1rem;
+    text-align: justify;
+    font-size: large;
+    padding-right: 1rem;
+}
+.logo_nosotros img{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto{
+    background-color: aquamarine;
+    font-size: 0,5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/*---VARIABLES---*/
+.info_menu{
+    padding: 1rem;
+    font-size: large;
+}
+.contenedor_img{
+    width: 30%;
+    padding: 0,5rem;
+}
+.contenedor_img img{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.footer{
+    background-color: gainsboro;
+    height: 4vh;
+}
+/*---ROPA---*/
+.contenido_ropa .contenido{
+    display: inline-flex;
+}
+.contenido a{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: black;
+}
+.info_ropa{
+    padding-left: 1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+.info_ropa img{
+    width: 150px;
+}
+/*-----CONTACTO-----*/
+.contenido{
+    padding-left: 2rem;
+}
+.contacto_telefonos{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: large;
+}
+.contacto_horarios{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: large;
+}
+.contacto__formulario{
+    padding-left: 2rem;
+}
+.contacto_contenido{
+    margin: 1rem;
+    padding: 2rem;
+    width: 80%;
+    text-align: center;
+}
+.contacto_input{
+    width: 50%;
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.contacto__btn{
+    width: 50%;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
+/*---FULL RESPONSIVE---*/
+/*mobile*/
+@media(min-width:576px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: plum;
+        width: 576px;
+    }
+    .menu_superior a{
+        color: black;
+        font-size: medium;
+    }
+    .texto{
+        font-size: small;
+    }
+
+/*---INDEX---*/
+.titulo_info_interesante{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    font-size: smaller;
+}
+.contenido_info{
+    display: flex;
+    height: max-content;
+    width: 100%;
+    font-size: small;
+}
+.info{
+    padding: 20px;
+    width: 50%;
+    font-size: small;
+}
+.info h2{
+    font-size: small;
+}
+.info p{
+    text-align: left;
+}
+.contenido_sugerencias img{
+    width: 100px;
+}
+/*--ENCABEZADO TIENDA---*/
+.encabezado ul li{  
+    font-size: medium;
+} 
+.info_menu{
+    font-size: medium;
+}
+.contenedor_img img{
+    width: 100px;
+}
+/*---ROPA---*/
+.contenido_ropa .contenido{
+    display: inline-flex;
+}
+.contenido a{
+    font-size: medium;
+}
+.info_ropa{
+    padding-left: 1rem;
+    font-size: smaller;
+    font-weight: bold;
+}
+.info_ropa img{
+    width: 100px;
+}
+/*---NOSOTROS---*/
+.titulo_nosotros{
+    font-size:medium;
+}
+.texto_nosotros{
+    text-align: justify;
+    font-size: smaller;
+}
+.texto{
+    font-size: small;
+}
+/*-----CONTACTO-----*/
+.contenido{
+    font-size: medium;
+}
+.contenido h1{
+    font-size: medium;
+}
+.contacto_telefonos{
+    font-size: smaller;
+}
+.contacto_horarios{
+    font-size: smaller;
+}
+.contacto__formulario h1{
+    font-size: medium;
+}
+.contacto_input{
+    width: 70%;
+}
+}
+/*tablet*/
+@media(min-width:768px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: plum;
+        width: 768px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .menu_superior a{
+        color: black;
+        font-size: large;
+    }
+    .texto{
+        font-size: small;
+    }
+
+/*---INDEX---*/
+.info{
+    text-align: left;
+}
+.info h2{
+    font-size: small;
+}
+.info p{
+    text-align: left;
+}
+.contenido_sugerencias img{
+    width: 150px;
+}
+/*--ENCABEZADO TIENDA---*/
+.encabezado ul li{  
+    font-size: large;
+} 
+.info_menu{
+    font-size: medium;
+}
+.contenedor_img img{
+    width: 150px;
+}
+/*---ROPA---*/
+.contenido a{
+    font-size: large;
+}
+.info_ropa{
+    padding-left: 1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+.info_ropa img{
+    width: 150px;
+}
+/*---NOSOTROS---*/
+.titulo_nosotros{
+    font-size:large;
+}
+.texto_nosotros{
+    text-align: justify;
+    font-size: medium;
+}
+
+/*-----CONTACTO-----*/
+.contenido{
+    font-size: large;
+}
+.contenido h1{
+    font-size: large;
+}
+.contacto_telefonos{
+    font-size: medium;
+}
+.contacto_horarios{
+    font-size: smaller;
+}
+.contacto__formulario h1{
+    font-size: large;
+}  
+.contacto_input{
+    width: 70%;
+}
+}
+/*escritorio*/
+@media(min-width:992px){
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background-color: plum;
+        width: 90%;
+    } 
+
+    /*---INDEX---*/
+.info h2{
+    font-size: medium;
+}
+.info p{
+    text-align: justify;
+}
+.contenido_sugerencias img{
+    width: 200px;
+}
+
+/*---NOSOTROS---*/
+.logo_nosotros img{
+    width: 450px;
+}
+
+/*-----CONTACTO-----*/
+.contenido{
+    font-size: large;
+}
+.contenido h1{
+    font-size: large;
+}
+.contacto__formulario h1{
+    font-size: large;
+}  
+.contacto_input{
+    width: 70%;
+}
+}
